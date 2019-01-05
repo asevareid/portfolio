@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Alli Sevareid Design</title>
+<link rel="stylesheet" href="https://use.typekit.net/uwj3efk.css">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+<link href="index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<button class="accordion"><h1>Alli Sevareid Design</h1></button>
+<div class="panel">
+ 	<br>
+ 	<a href="hacc.html">
+  	<div class= "projectimg"></div>
+  	</a>
+  <p>HACC Pop-Up</p>
+</div>
+
+<button class="accordion2"><h1>Info</h1></button>
+<div class="panel">
+	<br>
+	<img src="webpieces/wireframe.png" width="590">
+  <h2> <br> Resume <br> Email <br> Instagram </h2>
+ 	<h1>Hi,</h1>
+ 	<br>
+  	<p>my name is alli sevareid and i am a designer from the east coast living in the midwest.
+  	<br>
+  	my experience thus far has been primarily in print, but I have recently found a new love for web and interactive design.
+  	<br>
+  	I make work that is playful, thoughtful, and just as caffeinated as I am :)
+  	<br>
+  	Lets talk!
+  	</p>
+</div>
+
+<video width="100%" loop autoplay>
+	<source src= "portfoliophotos/posterbook1 (Converted).mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+
+var acc = document.getElementsByClassName("accordion2");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active2");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>
