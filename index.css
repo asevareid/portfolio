@@ -4,7 +4,11 @@
 h1 {
 	font-family: hatch, serif;
 	font-weight: 300;
-	font-size: 72 pt;
+}
+
+.title {
+	font-size: 72px;
+	display: inline;
 }
 
 h2 {
@@ -85,4 +89,99 @@ p {
 		width: 590px;
 		height: 330px;
         background: url(portfoliophotos/hacccover.png);
+    }
+
+.projectimg2 {
+		width: 590px;
+		height: 330px;
+        background: url(webpieces/wireframe.png);
+    }
+
+.projectimg2:hover {
+		width: 590px;
+		height: 330px;
+        background: url(portfoliophotos/loopcover.png);
+    }
+
+.projectimg3 {
+		width: 590px;
+		height: 330px;
+        background: url(webpieces/wireframe.png);
+    }
+
+.projectimg3:hover {
+		width: 590px;
+		height: 330px;
+        background: url(portfoliophotos/exegesiscover.png);
+    }
+
+.projectimg4 {
+		width: 590px;
+		height: 330px;
+        background: url(webpieces/wireframe.png);
+    }
+
+.projectimg4:hover {
+		width: 590px;
+		height: 330px;
+        background: url(portfoliophotos/nelsoncover.png);
+    }
+
+.projectimg5 {
+		width: 590px;
+		height: 330px;
+        background: url(webpieces/wireframe.png);
+    }
+
+.projectimg5:hover {
+		width: 590px;
+		height: 330px;
+        background: url(portfoliophotos/freshaircover.png);
+    }
+
+.projectimg6 {
+		width: 590px;
+		height: 330px;
+        background: url(webpieces/wireframe.png);
+    }
+
+.projectimg6:hover {
+		width: 590px;
+		height: 330px;
+        background: url(portfoliophotos/posterbookcover.png);
+    }
+
+.projectimg7 {
+		width: 590px;
+		height: 330px;
+        background: url(webpieces/wireframe.png);
+    }
+
+.projectimg7:hover {
+		width: 590px;
+		height: 330px;
+        background: url(portfoliophotos/bigpicnic.png);
+    }
+
+.projectimg8 {
+		width: 590px;
+		height: 330px;
+        background: url(webpieces/wireframe.png);
+    }
+
+.projectimg8:hover {
+		width: 590px;
+		height: 330px;
+        background: url(portfoliophotos/workspacecover.png);
+    }
+.projectimg9 {
+		width: 590px;
+		height: 330px;
+        background: url(webpieces/wireframe.png);
+    }
+
+.projectimg9:hover {
+		width: 590px;
+		height: 330px;
+        background: url(webpieces/experimentalvideos.png);
     }
